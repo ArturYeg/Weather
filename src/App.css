@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background-image: url("https://static.sciencelearn.org.nz/images/images/000/003/176/embed/FIR_ITV_RuralFireRisk_Weather_CloudySky_123RF_901534.jpg?1522314128");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+
+.Button {
+  height:35px;
+  width:100px;
+  decoration:none;
+  border-radius: 8px;
+  cursor: pointer;
+  justify-content:center;
+  background-color:gold;
+  
+
+}
+
+.Input{
+  height:20px;
+  width: 200px;
+  border-radius: 10px;
+  decoration: none;
+  padding: 4px;
+  
+  
+}
