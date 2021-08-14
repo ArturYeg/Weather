@@ -1,4 +1,3 @@
-import { getByDisplayValue } from '@testing-library/react';
 import React,{useState} from 'react';
 import './Weather.css';
 
@@ -11,7 +10,6 @@ function Weather (){
     const [view, setView] = useState(false);
 
 
-    const API ='https://goweather.herokuapp.com/weather/';
 
     const getValue = (event) => {
         setInpValue(event.target.value)
@@ -52,7 +50,7 @@ function Weather (){
         <form onSubmit={getData}> 
               <input 
                 type="text" 
-                placeholder="City" 
+                placeholder="Please write country name" 
                 className = 'Input'
                 value={inpValue}
                 onChange={(event) => getValue(event)}/>
